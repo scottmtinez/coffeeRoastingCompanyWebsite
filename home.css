@@ -1,0 +1,49 @@
+.body-container{
+    background-color: black;
+}
+
+/* ----- NAV BAR ----- */
+
+.navbar-Container {
+    width: 100%;
+    height: 75px;
+    border-radius: 15px;
+    background-color: #7f2b0a;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 32px;
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+    margin: 0;
+    padding: 10px;
+}
+
+.navbar-links{
+    background-color: transparent;
+}
+
+.navbar-home, .navbar-products, .navbar-about, .navbar-contact{
+    text-decoration: none;
+    background-color: transparent;
+    padding-right: 10px;
+    color: tan;
+}
+
+.navbar-search, .navbar-profile, .navbar-cart{
+    color: tan;
+    /* NOTE: find away to move everything to the right side */
+}
+
+.navbar-home:hover, .navbar-products:hover, .navbar-about:hover, .navbar-contact:hover, .navbar-search:hover, .navbar-profile:hover, .navbar-cart:hover{
+    color: rgb(205, 152, 82);
+}
+
+
+
+
+
