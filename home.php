@@ -9,22 +9,16 @@
     <title>Coffee Roasting Company</title>
 </head>
 <body class="body-container">
-    <nav class="navbar-Container">
-        <a class="navbar-brand" href="#">Coffee Roasting Co.</a> <!-- NOTE: LOGO -->
-        <div class="navbar-links">
-            <a class="navbar-home" href="#">Home</a>
-            <a class="navbar-products" href="#">Products</a>
-            <a class="navbar-about" href="#">About</a>
-            <a class="navbar-contact" href="#">Contact</a>
+    <?php 
+        include("nav.php"); 
+        include("account.php");
+        include("cart.php");
+    ?>
 
-            <a class="navbar-search" href="#"><i class="bi bi-search"></i></a>
-            <a class="navbar-profile" href="#"><i class="bi bi-person-circle"></i></a>
-            <a class="navbar-cart" href="#"><i class="bi bi-bag"></i></a>
-        </div>
-    </nav>
-    
     <div class="">
 
     </div>
+
+    <?php include("footer.php"); ?>
 </body>
 </html>
